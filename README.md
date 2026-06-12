@@ -1,20 +1,53 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Cosmic Curiosity
 
-# Run and deploy your AI Studio app
+A project for documentation of understanding the universe through curiosity, exploration, and learning.
 
-This contains everything you need to run your app locally.
+## About
 
-View your app in AI Studio: https://ai.studio/apps/49eb79fa-a889-44b7-b312-865ad1bd7048
+Cosmic Curiosity is a personal web project that documents the process of learning cosmology, astronomy, and the fundamental questions about the universe. The website is designed as a learning journal where complex topics are explored from a beginner's perspective.
 
-## Run Locally
+## Features
 
-**Prerequisites:**  Node.js
+* Cosmic Questions and Explorations
+* Learning Timeline
+* Random Cosmic Facts
+* Responsive Design
+* Interactive User Experience
+* Mobile-Friendly Layout
 
+## Technologies Used
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+* HTML5
+* CSS3
+* Vanilla JavaScript
+* GitHub Pages
+
+## Project Goals
+
+* Learn and share cosmology concepts
+* Document a personal learning journey
+* Build practical web development skills
+* Create an engaging educational experience
+
+## Live Website
+
+Visit the website here:
+
+https://yourusername.github.io/cosmic-curiosity/
+
+## Future Plans
+
+* Interactive cosmology visualizations
+* Expanded learning timeline
+* Astronomy and space exploration content
+* Educational simulations
+* Additional interactive features
+
+## License
+
+This project is open for learning and educational purposes.
+
+## Development Note
+
+This project was developed with the assistance of modern AI tools for design, prototyping, and code generation. The project serves as both a learning journey into cosmology and an exploration of AI-assisted web development workflows.
+
