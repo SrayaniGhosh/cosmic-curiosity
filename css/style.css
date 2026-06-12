@@ -414,8 +414,8 @@ body {
 
 .topics-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
   margin-top: 1rem;
 }
 
@@ -1422,9 +1422,13 @@ body {
     margin: 0 auto;
   }
   
-  .questions-grid, .topics-grid {
+  .questions-grid {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
+  }
+  
+  .topics-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
   
   .q-card-big {
@@ -1507,6 +1511,10 @@ body {
   }
   
   .learned-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .topics-grid {
     grid-template-columns: 1fr;
   }
   
