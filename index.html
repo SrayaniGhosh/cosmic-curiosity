@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cosmic Curiosity | A Voyager's Log</title>
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="home-page">
+
+  <!-- --- NAVIGATION HEADER --- -->
+  <header class="nav-header" id="main-header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo" id="nav-logo">
+        Cosmic Curiosity
+      </a>
+      
+      <!-- Desktop & Mobile Navigation Menu -->
+      <ul class="nav-menu" id="nav-menu-list">
+        <li><a href="index.html" class="nav-link active" id="nav-home">Home</a></li>
+        <li><a href="question.html" class="nav-link" id="nav-questions">Cosmic Questions</a></li>
+        <li><a href="timeline.html" class="nav-link" id="nav-timeline">Learning Timeline</a></li>
+      </ul>
+
+      <div class="nav-right-actions">
+        <!-- Hamburger Menu for mobile viewport controls -->
+        <button class="hamburger" aria-label="Toggle navigation menu" id="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- --- HERO SECTION --- -->
+  <section class="hero-section" id="hero">
+    <div class="hero-glow"></div>
+    <div class="container fade-up visible">
+      <h1 class="hero-title gradient-text" id="main-title">Cosmic Curiosity</h1>
+      <p class="hero-subtitle" id="main-subtitle">Documenting a beginner's journey to understand the universe.</p>
+      <div class="hero-buttons">
+        <a href="#cosmology-topics" class="btn btn-teal" id="cta-explore">Start Exploring</a>
+        <a href="timeline.html" class="btn btn-outline" id="cta-timeline">View Timeline</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- VOYAGER'S LOG SECTION --- -->
+  <section class="log-section" id="voyagers-log">
+    <div class="container log-grid fade-up">
+      <div class="card log-card" id="log-info-card">
+        <span class="mono-tag tag-physics">A Solo Voyager's Log</span>
+        <h2 class="log-title">Mapping the Infinite</h2>
+        <p class="log-text">I've always looked up at the night sky and felt a profound sense of "not knowing." This project isn't about professional astrophysics—it's a field journal of a curious mind trying to grasp the infinite.</p>
+        <p class="log-text">From the dance of subatomic particles to the expansion of galaxy clusters, join me as I map out the cosmos one question at a time.</p>
+      </div>
+      <div class="log-image-wrapper" id="log-img-wrapper">
+        <img src="assets/images/voyager_milky_way.jpg" alt="Voyager looking up at the stunning starry Milky Way" referrerPolicy="no-referrer" id="voyager-milky-way-image">
+      </div>
+    </div>
+  </section>
+
+  <!-- --- COSMOLOGY TOPICS SECTION --- -->
+  <section class="featured-section" id="cosmology-topics">
+    <div class="container">
+      <div class="section-header fade-up">
+        <h2 class="section-title">Pillars of Modern Cosmology</h2>
+        <p class="section-subtitle">Core concepts shaping our understanding of the universe's origin, structure, and fate.</p>
+      </div>
+      
+      <div class="topics-grid">
+        <!-- Topic 1: The Big Bang & CMB -->
+        <div class="card card-glowing q-card-big fade-up" id="topic-big-bang" style="grid-row: span 1;">
+          <div>
+            <span class="mono-tag tag-physics">The Primeval Echo</span>
+            <h3 class="q-title" style="margin-top: 0.2rem;">The Big Bang & CMB</h3>
+            <p class="q-excerpt">Before stars or galaxies existed, the universe was a dense, searing plasma. Approximately 380,000 years after the singularity, space cooled enough for light to travel freely, creating the Cosmic Microwave Background (CMB)—the oldest light in existence.</p>
+          </div>
+        </div>
+
+        <!-- Topic 2: Dark Matter -->
+        <div class="card card-glowing q-card-big fade-up" id="topic-dark-matter" style="grid-row: span 1;">
+          <div>
+            <span class="mono-tag tag-discovery">Invisible Scaffolding</span>
+            <h3 class="q-title" style="margin-top: 0.2rem;">The Riddle of Dark Matter</h3>
+            <p class="q-excerpt">Standard atomic matter only accounts for about 5% of the cosmos. Dark Matter, an unknown transparent substance that does not emit or absorb light, constitutes roughly 27% of the universe, holding spinning galaxies together with its enormous gravity.</p>
+          </div>
+        </div>
+
+        <!-- Topic 3: Stellar Nucleosynthesis -->
+        <div class="card card-glowing q-card-big fade-up" id="topic-stellar-evolution" style="grid-row: span 1;">
+          <div>
+            <span class="mono-tag tag-insight">Stellar Forges</span>
+            <h3 class="q-title" style="margin-top: 0.2rem;">Stellar Evolution & Elements</h3>
+            <p class="q-excerpt">The primordial universe only contained hydrogen, helium, and trace lithium. Every heavier element—including the carbon in our cells and the iron in our blood—was forged in the nuclear furnaces of dying stars and massive stellar explosions.</p>
+          </div>
+        </div>
+
+        <!-- Topic 4: The Large-Scale Cosmic Web -->
+        <div class="card card-glowing q-card-big fade-up" id="topic-galaxy-formation" style="grid-row: span 1;">
+          <div>
+            <span class="mono-tag tag-warning">Cosmic Filaments</span>
+            <h3 class="q-title" style="margin-top: 0.2rem;">Galaxy Formation & Cosmic Web</h3>
+            <p class="q-excerpt">On the largest scale, the universe looks like a network of gas and dark matter filaments separated by immense voids. Galaxies and clusters cluster tightly at the intersections of these cosmic webs, expanding continuously into the darkness.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- INSTANT INSIGHT BANNER --- -->
+  <section class="insight-container" id="instant-insight">
+    <div class="container fade-up">
+      <div class="card insight-banner" id="insight-box">
+        <div class="insight-flex">
+          <div class="insight-left">
+            <span class="mono-tag tag-insight">⚡ Instant Insight</span>
+            <h3 class="insight-title">A day on Venus is longer than a year on Venus.</h3>
+            <p class="insight-text">It takes Venus about 243 Earth days to spin once on its axis, while it only takes about 225 Earth days to orbit the Sun. This means a Venusian daily axial rotation takes longer than its complete yearly solar orbit!</p>
+          </div>
+          <div class="insight-right" id="insight-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-lightbulb"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A7 7 0 0 0 4 8c0 1.3.5 2.6 1.5 3.5.7.8 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/></svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- COSMOLOGICAL HORIZONS SECTION --- -->
+  <section class="home-timeline-section" id="cosmological-horizons">
+    <div class="container">
+      <div class="section-header fade-up">
+        <h2 class="section-title">Cosmological Horizons</h2>
+        <p class="section-subtitle">Deeper structural mechanisms of gravitational physics and expanding space.</p>
+      </div>
+
+      <div class="topics-grid">
+        <!-- Topic 5: General Relativity & Spacetime -->
+        <div class="card card-glowing q-card-big fade-up" id="topic-spacetime" style="grid-row: span 1;">
+          <div>
+            <span class="mono-tag tag-physics">Gravitational Warp</span>
+            <h3 class="q-title" style="margin-top: 0.2rem;">General Relativity & Spacetime</h3>
+            <p class="q-excerpt">Space and time are not separate, static backgrounds. Instead, they form a single, four-dimensional fabric called Spacetime. Massive bodies like stars and black holes warp this fabric, curving the paths of passing light and matter. This curvature is what we perceive as gravity.</p>
+          </div>
+        </div>
+
+        <!-- Topic 6: Cosmic Inflation -->
+        <div class="card card-glowing q-card-big fade-up" id="topic-cosmic-inflation" style="grid-row: span 1;">
+          <div>
+            <span class="mono-tag tag-insight">Exponential Growth</span>
+            <h3 class="q-title" style="margin-top: 0.2rem;">The Theory of Cosmic Inflation</h3>
+            <p class="q-excerpt">To explain why the universe looks homogeneous and flat in all directions, cosmic inflation posits that in the first fraction of a second, space underwent immensely rapid, exponential expansion. This expansion stretched subatomic fluctuations into massive galactic web scales.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- FOOTER --- -->
+  <footer class="site-footer" id="main-footer">
+    <div class="container footer-flex">
+      <a href="index.html" class="logo" id="footer-logo">Cosmic Curiosity</a>
+      <p class="footer-copy" id="footer-copyright">&copy; 2024 Cosmic Curiosity. Made with curiosity.</p>
+      <div class="footer-links" id="footer-links-list">
+        <a href="index.html" class="footer-link">Privacy</a>
+        <a href="index.html" class="footer-link">Terms</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main Behavior JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+</html>
