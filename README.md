@@ -33,7 +33,7 @@ Cosmic Curiosity is a personal web project that documents the process of learnin
 
 Visit the website here:
 
-https://yourusername.github.io/cosmic-curiosity/
+https://srayanighosh.github.io/cosmic-curiosity/
 
 ## Future Plans
 
